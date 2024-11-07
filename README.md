@@ -1,2 +1,10 @@
 # eralino
-Super app experiment
+Super app experiment -- not to be used for important stuff
+
+## Why???
+Yes, super apps are not common in the West but are very common in East Asia. I think they're interesting and want to at least take a swing and see what they entail. I had a thought about super apps: they could be used for fantasy worldbuilding. For example, a Dungeons and Dragons campaign in a setting where smartphones or smartphone-adjacent devices exist. Party members and the DM could use the super app for the campaign as a form of immersion, using their IRL devices to interact in the fictional world. Yes, it would absolutely be a lot of work for a campaign, but many people do put in a lot of effort in creating their campaigns. 
+
+## How???
+The basis for the idea is [Comlink](https://github.com/GoogleChromeLabs/comlink) and iframes. The super app is plug and play via different deployed websites (apps). The apps can either be opened within an iframe or in a new tab/window with `window.open`. If data needs to be shared between apps the super app can take care of it. A more proper build of my idea probably is self-hosted on a private network that only few people can access, I.E. at home on a computer for an aforementioned D&D session. This home server could also allow for some dynamic features such as a mini social media/messaging system. It would only be available for as long as a session runs. Another idea for running this is a shell application that just exists on the internet, which prompts a user to either add apps themselves or to specify a configuration file, either by a URL or a file upload, where it would automatically pull what it needs, kinda like enterprise configuration of devices. 
+
+Sensitive/important stuff probably shouldn't be remotely near this as this project is not meant for it whatsoever and I don't think sensitive/important stuff should be remotely near any super apps. 
